@@ -1,0 +1,48 @@
+/* Features.css */
+.features {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.features-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features-content h2 {
+  font-size: 2.5rem;
+  color: #ff6600;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-card {
+  flex: 1 1 calc(33.333% - 20px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff6600; 
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #666;
+}

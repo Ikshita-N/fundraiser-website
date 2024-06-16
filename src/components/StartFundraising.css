@@ -1,0 +1,36 @@
+/* StartFundraising.css */
+
+.start {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.headingColor {
+  color: #ff6600;
+}
+
+.start-content {
+  text-align: center;
+}
+
+.img-custom {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #fd733379; 
+}
